@@ -1,0 +1,13 @@
+CREATE TRIGGER YQuantityUpdate On CTPhieu
+FOR INSERT 
+AS
+	UPDATE T2
+	Set T2.SL = T2.SL + T1.SL
+	From inserted T1 LEFT JOIN Sach T2 ON T1.MaSach = T2.MaSach
+
+CREATE TRIGGER YUpdateSL On CTHD
+FOR INSERT 
+AS
+	UPDATE T2
+	Set T2.SL = T2.SL - T1.SL
+	From inserted T1 LEFT JOIN Sach T2 ON T1.MaSach = T2.MaSach
