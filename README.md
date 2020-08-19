@@ -1,3 +1,3 @@
 # jsp-servlet
 Book management website
-Website đặt sách
+Website mua bán sách.
