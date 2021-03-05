@@ -72,6 +72,6 @@ INSERT INTO KhachHang (MaKH, TenKh, SoDT, Email) VALUES (N'KH008', N'008', NULL,
 INSERT INTO KhachHang (MaKH, TenKh, SoDT, Email) VALUES (N'KH009', N'009', NULL, NULL);
 INSERT INTO KhachHang (MaKH, TenKh, SoDT, Email) VALUES (N'KH010', N'010', NULL, NULL);
 
-INSERT INTO NhanVien (Manv, TenNV, SoDT, Email, ChucVu) VALUES (N'NV01', N'NV01', N'NV01', N'NV01', N'NV01');
+INSERT INTO NhanVien (Manv, TenNV, SoDT, Email, ChucVu) VALUES (N'NV001', N'NV001', N'099asd0ads0', N'NV01', N'NV01');
 INSERT INTO TaiKhoan (MaTK, TenTK, TenHienThi, MatKhau, ChucVu) VALUES (N'TK001', N'ADMIN', N'ADMIN', N'123', 0);
 INSERT INTO TaiKhoan (MaTK, TenTK, TenHienThi, MatKhau, ChucVu) VALUES (N'TK002', N'MOD', N'Moderator', N'12345', 0);

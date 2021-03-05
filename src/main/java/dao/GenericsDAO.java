@@ -11,9 +11,9 @@ public class GenericsDAO<T> implements IGenericsDAO<T> {
     public Connection getConnection(){
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String url = "jdbc:sqlserver://localhost:1433;databaseName=BookManagement";
+            String url = "jdbc:sqlserver://localhost:1433;databaseName=book_db";
             String acc = "sa";
-            String psw = "0120";
+            String psw = "yourStrong(!)Password";
             return DriverManager.getConnection(url,acc,psw);
         } catch (ClassNotFoundException | SQLException e) {
             return null;
